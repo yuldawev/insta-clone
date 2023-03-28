@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+.app {
+    width: 100vw;
+    background-color: #fafafa;
+    height: 100vh;
+}
+
+.app_posts{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.app_header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid lightgrey;
+    object-fit: contain;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app_headerImage{
+    object-fit: contain;
+}
+
+.app_singup{
+    display: flex;
+    flex-direction: column;
+}
+
+.app_headerImage{
+    padding: 0 100px;
+    width: 200px;
+}
+
+.modal{
+    margin: 0 420px 200px 0;
+}
